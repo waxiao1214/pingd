@@ -1,0 +1,41 @@
+{
+  "name": "pingd",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.6.1",
+    "@react-native-community/push-notification-ios": "^1.0.2",
+    "lodash": "^4.17.10",
+    "prop-types": "^15.6.2",
+    "react": "16.3.1",
+    "react-native": "^0.56.0",
+    "react-native-communications": "^2.2.1",
+    "react-native-contacts": "^2.2.2",
+    "react-native-navigation": "^1.1.483",
+    "react-native-push-notification": "^3.1.9",
+    "react-native-swipeable-row": "^0.8.1",
+    "react-native-swiper": "^1.5.13",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-persist": "^5.10.0",
+    "redux-subscriber": "^1.1.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "babel-jest": "23.4.2",
+    "babel-preset-react-native": "5.0.0",
+    "eslint": "^5.4.0",
+    "eslint-plugin-react": "^7.11.1",
+    "jest": "23.5.0",
+    "react-test-renderer": "16.3.1",
+    "redux-logger": "^3.0.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
