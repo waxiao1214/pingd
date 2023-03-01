@@ -12,7 +12,7 @@
     "lodash": "^4.17.10",
     "prop-types": "^15.6.2",
     "react": "16.3.1",
-    "react-native": "^0.56.0",
+    "react-native": "^0.71.3",
     "react-native-communications": "^2.2.1",
     "react-native-contacts": "^2.2.2",
     "react-native-navigation": "^1.1.483",
